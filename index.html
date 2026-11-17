@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohamed Elsayed, Computer Science student at MIU. Explore my software, computer vision and hardware projects, experience, skills and future goals.">
+  <meta name="theme-color" content="#f5f5ef">
+  <title>Mohamed Elsayed — CS Student & Builder</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="Mohamed Elsayed home">m<span>e</span><i>.</i></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span>＋</span></button>
+    <nav id="navigation" aria-label="Main navigation"><a href="#projects">Projects</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#goals">Goals</a><a class="nav-cta" href="#contact">Contact <span>&#8599;</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT</p>
+        <h1 id="hero-title">Hi, I’m Mohamed.<br>I learn by<br><em>building things.</em></h1>
+        <p class="intro">I am a Computer Science student at Misr International University, building practical systems that connect software and hardware. My work brings together C++, Python, computer vision, and Arduino.</p>
+        <a class="button" href="#projects">Discover my projects <span>↘</span></a>
+      </div>
+      <div class="hero-art" aria-label="A creative illustration of software and hardware coming together">
+        <div class="art-grid"></div>
+        <span class="art-caption">A LITTLE LOGIC. A LOT OF CURIOSITY.</span>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-sheet"><div class="window-bar"><span></span><span></span><span></span><small>hello_world.js</small></div><div class="code-body"><p><span class="line-no">01</span><b>const</b> developer = {</p><p><span class="line-no">02</span>&nbsp; name: <em>"Mohamed"</em>,</p><p><span class="line-no">03</span>&nbsp; field: <em>"Computer Science"</em>,</p><p><span class="line-no">04</span>&nbsp; mindset: <em>"Keep learning"</em></p><p><span class="line-no">05</span>};</p><p class="code-comment"><span class="line-no">06</span>// Turn curiosity into code.</p></div></div>
+        <div class="chip"><span>&lt;/&gt;</span><small>THINK. BUILD. REPEAT.</small></div>
+        <div class="floating-label"><span>✳</span> A work in progress.<br><strong>And proud of it.</strong></div>
+      </div>
+      <div class="hero-footer"><span>MOHAMED ELSAYED <i>/</i> PERSONAL PORTFOLIO</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="projects wrap section" id="projects" aria-labelledby="projects-title">
+      <div class="section-head"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="projects-title">Small projects.<br><em>Real learning.</em></h2></div><p>From full-stack applications to intelligent hardware.<br>Five projects that reflect what I am learning.</p></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-visual sensor-visual">
+            <div class="visual-label"><span>INPUT → DETECTION → OUTPUT</span><span>01</span></div>
+            <div class="radar" id="radar"><div class="radar-axis axis-x"></div><div class="radar-axis axis-y"></div><div class="radar-sweep"></div><div class="radar-core"></div><span class="radar-target"></span></div>
+            <div class="sensor-controls"><span id="sensor-status" role="status"><i></i> STANDBY</span><button id="motion-button" type="button">Simulate motion <span>↗</span></button></div>
+          </div>
+          <div class="project-body"><p class="project-category">COMPUTER ORGANIZATION</p><h3>Motion Sensor</h3><p>Exploring how a physical movement becomes an input a computer can respond to.</p><div class="tags"><span>Hardware</span><span>Input / Output</span><span>Detection</span></div><button class="text-button" data-project="motion">Explore project <span>↗</span></button></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual cinema-visual">
+            <div class="visual-label"><span>YOUR NEXT STORY STARTS HERE</span><span>02</span></div>
+            <div class="cinema-screen"><span>THE BIG SCREEN</span></div>
+            <div class="seats" id="seats" role="group" aria-label="Illustrative cinema seat selection"></div>
+            <div class="cinema-bottom"><span><i></i> <span id="seat-status" role="status">Pick a seat</span></span><span>INTERACTIVE CONCEPT</span></div>
+          </div>
+          <div class="project-body"><p class="project-category">OBJECT-ORIENTED PROGRAMMING</p><h3>Movie Booking System</h3><p>Bringing cinema concepts into code through a Java object-oriented programming project.</p><div class="tags"><span>Java</span><span>OOP</span><span>Class Design</span></div><button class="text-button" data-project="movie">Explore project <span>↗</span></button></div>
+        </article>
+<article class="project-card"><div class="project-visual vision-visual"><div class="visual-label"><span>PROJECT CONCEPT ILLUSTRATION</span><span>03</span></div><div class="face-frame"><div class="face-head"></div><div class="face-shoulders"></div><span>IDENTITY / ACCESS</span></div></div><div class="project-body"><p class="project-category">COMPUTER VISION / EMBEDDED SYSTEMS</p><h3>Face Recognition Door Lock System</h3><p>Led a six-member team building a smart security system with face recognition and keypad authentication.</p><div class="tags"><span>Python</span><span>OpenCV</span><span>Arduino Uno</span></div><button class="text-button" data-project="face">Explore project <span>&#8599;</span></button></div></article><article class="project-card"><div class="project-visual hospital-visual"><div class="visual-label"><span>PROJECT CONCEPT ILLUSTRATION</span><span>04</span></div><div class="module-visual"><span>PATIENTS</span><span>DOCTORS</span><span>ROOMS</span><span>BILLING</span></div></div><div class="project-body"><p class="project-category">C++ / CONSOLE APPLICATION</p><h3>Hospital Management System</h3><p>A console application with patient, doctor, room, and billing modules, plus file storage between program runs.</p><div class="tags"><span>C++</span><span>File Handling</span><span>Programming Fundamentals</span></div><button class="text-button" data-project="hospital">Explore project <span>&#8599;</span></button></div></article><article class="project-card"><div class="project-visual time-visual"><div class="visual-label"><span>PROJECT CONCEPT ILLUSTRATION</span><span>05</span></div><div class="task-visual"><div><b>01</b><span>PLAN</span><i></i></div><div><b>02</b><span>BUILD</span><i></i></div><div><b>03</b><span>IMPROVE</span><i></i></div></div></div><div class="project-body"><p class="project-category">INTERNSHIP / TEAM PROJECT</p><h3>Time Management System</h3><p>Contributed to a full-stack system in a three-member team, working on frontend, basic backend tasks, and testing.</p><div class="tags"><span>Frontend</span><span>Backend Basics</span><span>QA Collaboration</span></div><button class="text-button" data-project="time">Explore project <span>&#8599;</span></button></div></article>
+      </div>
+      <p class="demo-note">Visuals illustrate project concepts. The motion and seat-selection demos run in JavaScript; they are not connected to the original applications or hardware.</p>
+    </section>
+
+    <section class="about-band" id="about"><div class="wrap about section"><div><p class="eyebrow">02 / PROFILE &amp; EDUCATION</p><h2>Curiosity first.<br><em>Code follows.</em></h2><div class="education-card"><span>BACHELOR OF COMPUTER SCIENCE</span><h3>Misr International University</h3><p>MIU &middot; Expected graduation: 2029</p><p>Second-year student &middot; GPA: 3.0</p></div></div><div class="about-copy"><p>I am Mohamed Elsayed, a second-year Computer Science student focused on building practical systems that combine software and hardware.</p><p>I have hands-on experience with computer vision using OpenCV, embedded systems using Arduino, and programming in C++ and Python. My studies focus on programming fundamentals, problem solving, mathematics, and computer science basics.</p><p>Through team projects, a software engineering internship, and teaching mathematics, I am learning to build useful systems and explain complex ideas clearly.</p><div class="about-note"><span>&#8627;</span><p>My approach<br><strong>Build, test, debug, and keep learning.</strong></p></div></div></div></section>
+
+<section class="experience wrap section" id="experience"><div class="section-head"><div><p class="eyebrow">03 / EXPERIENCE</p><h2>Learning with people.<br><em>Building with teams.</em></h2></div></div><div class="timeline"><article class="experience-row"><div class="experience-date"><time datetime="2026-08-01">1 AUG 2026</time> - <time datetime="2026-09-05">5 SEP 2026</time></div><div><h3>Software &amp; SCADA Testing Intern</h3><p class="experience-company">Alstom</p><ul><li>Received training in software awareness and SCADA (Supervisory Control and Data Acquisition) testing.</li><li>Training focused on rail transport systems, including metro and monorail.</li></ul></div></article><article class="experience-row"><div class="experience-date">OCT 2025 - MAR 2026</div><div><h3>Mathematics Teaching Assistant</h3><ul><li>Supported 20+ students per session in improving problem-solving skills and mathematical understanding.</li><li>Helped with review sessions, assignments, and exam preparation in a clear, student-friendly way.</li><li>Developed communication, explanation, and teamwork skills while working closely with instructors and students.</li></ul></div></article><article class="experience-row"><div class="experience-date">AUG 2025 - SEP 2025</div><div><h3>Software Engineering Intern</h3><ul><li>Worked with a three-member team on a full-stack Time Management System.</li><li>Contributed to frontend development, basic backend tasks, testing, debugging, and feature improvements.</li><li>Collaborated with the QA team to identify issues and improve system stability before delivery.</li></ul></div></article></div></section>
+    <section class="skills wrap section" id="skills"><div class="section-head"><div><p class="eyebrow">04 / SKILLS &amp; LANGUAGES</p><h2>A practical toolkit.<br><em>A learning mindset.</em></h2></div><p>Technical foundations and people skills.<br>Developed through study and hands-on work.</p></div><div class="skill-list"><div class="skill-row"><span class="skill-number">01</span><h3>Programming</h3><p>C++ / Python / JavaScript basics / Java through OOP coursework</p><span class="skill-mark">&#8599;</span></div><div class="skill-row"><span class="skill-number">02</span><h3>Web development</h3><p>HTML / CSS / JavaScript / Simple frontend pages</p><span class="skill-mark">&#8599;</span></div><div class="skill-row"><span class="skill-number">03</span><h3>CS fundamentals</h3><p>Problem solving / Arrays / Recursion / Pointers / Structures / Enumerations / File handling / Basic algorithms</p><span class="skill-mark">&#8599;</span></div><div class="skill-row"><span class="skill-number">04</span><h3>Current coursework</h3><p>Object-oriented programming / Data structures / Computer organization</p><span class="skill-mark">&#8599;</span></div><div class="skill-row"><span class="skill-number">05</span><h3>Tools & technologies</h3><p>Git / GitHub / OpenCV / Arduino / VS Code / Visual Studio</p><span class="skill-mark">&#8599;</span></div><div class="skill-row"><span class="skill-number">06</span><h3>Working with people</h3><p>Team leadership / Teamwork / Communication / Time management / Critical thinking / Presentation skills / Willingness to learn</p><span class="skill-mark">&#8599;</span></div></div><div class="languages"><div><h3>Arabic</h3><p>Native</p></div><div><h3>English</h3><p>Professional Working Proficiency</p></div><div><h3>French</h3><p>Elementary &middot; A1-A2</p></div></div></section>
+
+    <section class="goals-band" id="goals"><div class="wrap section"><div class="section-head"><div><p class="eyebrow">05 / WHERE I AM HEADING</p><h2>Strong foundations.<br><em>Bigger possibilities.</em></h2></div><p>My future goals.<br>The direction I am working toward.</p></div><div class="goals-grid"><article><span>01 / BUILD DEPTH</span><h3>Grow as a software developer</h3><p>Strengthen my programming, data structures, algorithms, and problem-solving skills. Build applications that are clear, useful, and reliable.</p></article><article><span>02 / EXPLORE INTELLIGENCE</span><h3>Explore AI &amp; computer vision</h3><p>Build on my experience with Python, OpenCV, and Arduino to explore intelligent systems that connect software with the physical world.</p></article><article><span>03 / GAIN EXPERIENCE</span><h3>Work while I study</h3><p>Develop a strong portfolio and work toward part-time opportunities while continuing my degree. Learn from real teams, practical challenges, and feedback.</p></article></div></div></section><section class="closing wrap" id="contact"><p class="eyebrow">06 / LET'S CONNECT</p><h2>Have an idea?<br><em>Let's talk.</em></h2><p class="contact-intro">Interested in a student project, collaboration, or a part-time opportunity? Get in touch.</p><a class="button" href="mailto:mido.elsayed2006@gmail.com">Email Mohamed <span>&#8599;</span></a><div class="contact-details"><a href="mailto:mido.elsayed2006@gmail.com">mido.elsayed2006@gmail.com</a><div><a href="tel:+201019156507">01019156507</a><span> / </span><a href="tel:+201500676668">01500676668</a></div></div><div class="closing-star" aria-hidden="true">&#10035;</div></section>
+  </main>
+  <footer class="footer wrap"><span>© <span id="year">2026</span> Mohamed Elsayed</span><span>Made with HTML, CSS & JavaScript</span><a href="#">Back to top ↑</a></footer>
+
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close project details">×</button><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><h3>What this project explores</h3><ul id="dialog-points"></ul><div class="dialog-note" id="dialog-note"></div><button class="button dialog-done">Back to portfolio <span>↗</span></button></dialog>
+</body>
+</html>
